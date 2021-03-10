@@ -2530,8 +2530,22 @@ input, select, textarea {
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
 		}
+		.okay {
+			width: 2.5em;
+			height: 2.5em;
+			display: block;
+			background: #ffffff;
+			border-radius: 100%;
+			color: #312450;
+			text-align: center;
+			line-height: 2.5em;
+			margin: 0 0 1.3em 0;
+		}
 
 			.icon.major:before {
+				font-size: 1.25em;
+			}
+			.okay:before {
 				font-size: 1.25em;
 			}
 
@@ -2555,9 +2569,17 @@ input, select, textarea {
 					color: #b74e91;
 				}
 
+				.wrapper.style3 .okay:before {
+					color: #b74e91;
+				}
+
 				.wrapper.style3-alt .icon.major:before {
 					color: #953d75;
 				}
+				.wrapper.style3-alt .okay:before {
+					color: #953d75;
+				}
+
 
 /* Image */
 
